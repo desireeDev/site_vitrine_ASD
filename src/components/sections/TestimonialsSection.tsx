@@ -6,21 +6,21 @@ const TestimonialsSection = () => {
       name: "John Doe",
       position: "CEO, TechForward",
       content:
-        "Innovate Solutions transformed our operations. Their expertise and dedication are unmatched. We've seen a significant ROI since partnering with them.",
+        "ASD Solutions a transformé nos opérations. Leur expertise et leur engagement sont inégalés. Nous avons constaté un retour sur investissement significatif depuis notre collaboration.",
       rating: 5,
     },
     {
       name: "Jane Smith",
-      position: "Marketing Director, Growth Inc",
+      position: "Directrice Marketing, Growth Inc",
       content:
-        "The team at Innovate Solutions is incredibly responsive and knowledgeable. They delivered a product that exceeded our expectations on time and within budget.",
+        "L'équipe d'ASD Solutions est extrêmement réactive et compétente. Ils ont livré un produit qui a dépassé nos attentes, dans les délais et le budget impartis.",
       rating: 5,
     },
     {
       name: "Samuel Green",
       position: "COO, MarketCorp",
       content:
-        "Working with Innovate has been a game-changer. Their strategic insights helped us navigate a complex market and achieve our growth targets.",
+        "Travailler avec ASD Solutions a été un véritable tournant. Leurs conseils stratégiques nous ont aidés à naviguer dans un marché complexe et à atteindre nos objectifs de croissance.",
       rating: 5,
     },
   ];
@@ -30,11 +30,11 @@ const TestimonialsSection = () => {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            What Our Clients Say
+            Ce que disent nos clients
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We are proud to have partnered with a diverse range of clients,
-            delivering results that speak for themselves.
+            Nous sommes fiers d’avoir collaboré avec une diversité de clients,
+            en fournissant des résultats qui parlent d’eux-mêmes.
           </p>
         </div>
 

@@ -15,31 +15,30 @@ const Contact = () => {
         <section className="section-padding bg-background">
           <div className="container-custom">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-              {/* Contact Form */}
+              {/* Formulaire de contact */}
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                  Contact Us
+                  Contactez-nous
                 </h1>
                 <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                  We're here to help. Reach out to us for any inquiries or
-                  support.
+                  Nous sommes là pour vous aider. Contactez-nous pour toute question ou demande d’assistance.
                 </p>
 
                 <form className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="firstName">First Name</Label>
+                      <Label htmlFor="firstName">Prénom</Label>
                       <Input
                         id="firstName"
-                        placeholder="Enter your first name"
+                        placeholder="Entrez votre prénom"
                         className="rounded-xl border-border focus:border-primary focus:ring-primary"
                       />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="lastName">Last Name</Label>
+                      <Label htmlFor="lastName">Nom</Label>
                       <Input
                         id="lastName"
-                        placeholder="Enter your last name"
+                        placeholder="Entrez votre nom"
                         className="rounded-xl border-border focus:border-primary focus:ring-primary"
                       />
                     </div>
@@ -50,26 +49,26 @@ const Contact = () => {
                     <Input
                       id="email"
                       type="email"
-                      placeholder="Enter your email"
+                      placeholder="Entrez votre adresse email"
                       className="rounded-xl border-border focus:border-primary focus:ring-primary"
                     />
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="company">Company</Label>
+                    <Label htmlFor="company">Entreprise</Label>
                     <Input
                       id="company"
-                      placeholder="Enter your company name"
+                      placeholder="Entrez le nom de votre entreprise"
                       className="rounded-xl border-border focus:border-primary focus:ring-primary"
                     />
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="phone">Phone Number</Label>
+                    <Label htmlFor="phone">Numéro de téléphone</Label>
                     <Input
                       id="phone"
                       type="tel"
-                      placeholder="Enter your phone number"
+                      placeholder="Entrez votre numéro de téléphone"
                       className="rounded-xl border-border focus:border-primary focus:ring-primary"
                     />
                   </div>
@@ -78,23 +77,23 @@ const Contact = () => {
                     <Label htmlFor="message">Message</Label>
                     <Textarea
                       id="message"
-                      placeholder="Enter your message"
+                      placeholder="Entrez votre message"
                       rows={6}
                       className="rounded-xl border-border focus:border-primary focus:ring-primary resize-none"
                     />
                   </div>
 
                   <Button className="btn-primary w-full py-4 text-lg">
-                    Submit
+                    Envoyer
                   </Button>
                 </form>
               </div>
 
-              {/* Contact Information */}
+              {/* Informations de contact */}
               <div>
-                <h2 className="text-3xl font-bold mb-8">Our Locations</h2>
+                <h2 className="text-3xl font-bold mb-8">Nos Localisations</h2>
                 <p className="text-lg text-muted-foreground mb-8">
-                  Visit us at our offices or contact us via phone or email.
+                  Rendez-nous visite dans nos bureaux ou contactez-nous par téléphone ou email.
                 </p>
 
                 <div className="space-y-8">
@@ -103,9 +102,9 @@ const Contact = () => {
                       <MapPin className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg mb-1">Address</h3>
+                      <h3 className="font-semibold text-lg mb-1">Adresse</h3>
                       <p className="text-muted-foreground">
-                        123 Innovation Drive, Tech City, CA 90210
+                        123 Rue de l’Innovation, Tech City, CA 90210
                       </p>
                     </div>
                   </div>
@@ -115,7 +114,7 @@ const Contact = () => {
                       <Phone className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg mb-1">Phone</h3>
+                      <h3 className="font-semibold text-lg mb-1">Téléphone</h3>
                       <p className="text-muted-foreground">+1 (555) 123-4567</p>
                     </div>
                   </div>
@@ -127,22 +126,22 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold text-lg mb-1">Email</h3>
                       <a
-                        href="mailto:support@innovatesolutions.com"
+                        href="mailto:support@asdsoultions.com"
                         className="text-primary hover:underline"
                       >
-                        support@innovatesolutions.com
+                        support@asdsoultions.com
                       </a>
                     </div>
                   </div>
                 </div>
 
-                {/* Map Placeholder */}
+                {/* Carte */}
                 <div className="mt-12">
                   <div className="bg-corporate-gray-light rounded-2xl p-8 h-80 flex items-center justify-center">
                     <div className="text-center">
                       <MapPin className="h-12 w-12 text-primary mx-auto mb-4" />
                       <p className="text-muted-foreground">
-                        Interactive map coming soon
+                        Carte interactive bientôt disponible
                       </p>
                     </div>
                   </div>

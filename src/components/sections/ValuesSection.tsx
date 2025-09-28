@@ -6,19 +6,19 @@ const ValuesSection = () => {
       icon: Settings,
       title: "Innovation",
       description:
-        "We embrace creativity and forward-thinking to develop groundbreaking solutions.",
+        "Nous encourageons la créativité et la pensée avant-gardiste pour développer des solutions révolutionnaires.",
     },
     {
       icon: Trophy,
       title: "Excellence",
       description:
-        "We strive for the highest standards in everything we do, delivering exceptional quality and value.",
+        "Nous visons les plus hauts standards dans tout ce que nous entreprenons, en offrant une qualité et une valeur exceptionnelles.",
     },
     {
       icon: Users,
       title: "Collaboration",
       description:
-        "We work closely with our clients, fostering strong partnerships and achieving shared success.",
+        "Nous travaillons en étroite collaboration avec nos clients, favorisant des partenariats solides et atteignant des succès partagés.",
     },
   ];
 
@@ -27,11 +27,10 @@ const ValuesSection = () => {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Our Core Values
+            Nos Valeurs Fondamentales
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We are guided by a set of core values that define our approach and
-            commitment to our clients.
+            Nous sommes guidés par un ensemble de valeurs fondamentales qui définissent notre approche et notre engagement envers nos clients.
           </p>
         </div>
 

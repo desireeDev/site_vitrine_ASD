@@ -18,9 +18,9 @@ const Navigation = () => {
   }, []);
 
   const navItems = [
-    { label: "Home", path: "/" },
+    { label: "Accueil", path: "/" },
     { label: "Services", path: "/services" },
-    { label: "About Us", path: "/about" },
+    { label: "Nous", path: "/about" },
     { label: "Contact", path: "/contact" },
   ];
 
@@ -40,7 +40,7 @@ const Navigation = () => {
               <Triangle className="h-6 w-6 text-primary-foreground" />
             </div>
             <span className="text-xl font-bold text-foreground">
-              Innovate Solutions
+              ASD Solutions
             </span>
           </Link>
 
@@ -60,7 +60,7 @@ const Navigation = () => {
               </Link>
             ))}
             <Button variant="default" size="sm" className="btn-primary">
-              Get Started
+              Commencer
             </Button>
           </div>
 
