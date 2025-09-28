@@ -1,3 +1,4 @@
+//Fichier à lire//
 import type { Config } from "tailwindcss";
 
 export default {
