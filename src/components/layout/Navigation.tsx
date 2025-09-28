@@ -37,7 +37,7 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="p-2 bg-primary rounded-lg">
-              <Triangle className="h-6 w-6 text-primary-foreground" />
+
             </div>
             <span className="text-xl font-bold text-foreground">
               ASD Solutions
